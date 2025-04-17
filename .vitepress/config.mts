@@ -9,21 +9,18 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "Revues", link: "/semaine1" },
     ],
 
     sidebar: [
       {
-        text: "Examples",
+        text: "Revues",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
+          { text: "Semaine 1", link: "/semaine1" },
+          { text: "Semaine 2", link: "/semaine2" },
+          { text: "Semaine 3", link: "/semaine3" },
         ],
       },
-    ],
-
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
   },
 })
